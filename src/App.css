@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background: linear-gradient(to bottom, #ddadee, #333); 
+  background-attachment: fixed; 
+  color: #FFFFFF;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+/* Cor do texto no hover e active */
+.ant-menu-horizontal > .ant-menu-item:hover a,
+.ant-menu-horizontal > .ant-menu-item-active a,
+.ant-menu-horizontal > .ant-menu-item-selected a {
+  color: #E4BBEF !important; /* Texto branco no hover e quando selecionado */
+}
