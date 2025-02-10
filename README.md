@@ -1,46 +1,130 @@
-# Getting Started with Create React App
+# Portfólio de Bruna Marcelle
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto de portfólio desenvolvido com **React**, **Ant Design** e **TypeScript**. O objetivo deste projeto é apresentar informações profissionais, projetos e habilidades de forma visualmente atraente e responsiva.
 
-## Available Scripts
+## Índice
 
-In the project directory, you can run:
+- [Visão Geral](#visão-geral)
+- [Funcionalidades Principais](#funcionalidades-principais)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Como Executar o Projeto Localmente](#como-executar-o-projeto-localmente)
+- [Personalizações Futuras](#personalizações-futuras)
 
-### `yarn start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Visão Geral
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+O portfólio foi projetado para ser uma vitrine profissional moderna e interativa. Ele inclui seções como:
 
-### `yarn test`
+- **Sobre Mim**: Uma breve introdução sobre Bruna Marcelle.
+- **Projetos**: Um carrossel estático com cards que exibem projetos pessoais.
+- **Experiências Profissionais**: Lista de experiências profissionais com descrições detalhadas.
+- **Tecnologias**: Ícones das tecnologias dominadas por Bruna Marcelle.
+- **Contato**: Informações de contato, incluindo e-mail e LinkedIn.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `yarn build`
+## Funcionalidades Principais
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Design Responsivo**:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   - O layout é totalmente responsivo e funciona bem em dispositivos móveis, tablets e desktops.
+2. **Carrossel de Projetos**:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   - Os projetos são exibidos em um carrossel estático com setas personalizadas para navegação.
+3. **Ícones Interativos**:
 
-### `yarn eject`
+   - Ícones de tecnologias e links (como LinkedIn) são clicáveis e estilizados para melhor usabilidade.
+4. **Animações Suaves**:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+   - Transições suaves foram adicionadas aos botões e elementos interativos para melhorar a experiência do usuário.
+5. **Fundo Dinâmico**:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   - O fundo da página possui um gradiente roxo e preto, criando um visual moderno e profissional.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Tecnologias Utilizadas
 
-## Learn More
+- **React**: Framework principal para construção da interface.
+- **TypeScript**: Adiciona tipagem estática ao projeto, melhorando a manutenibilidade.
+- **Ant Design**: Biblioteca de componentes UI para estilização e funcionalidades prontas.
+- **CSS-in-JS**: Estilização inline usando objetos JavaScript para maior controle.
+- **HTML5 e CSS3**: Para estrutura e estilização básica.
+- **Yarn**: Gerenciador de pacotes utilizado no projeto.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Estrutura do Projeto
+
+Aqui está a organização dos arquivos e pastas:
+
+```md
+portfolio/
+├── public/ # Arquivos públicos (imagens, ícones, etc.)
+│ ├── assets/ # Imagens e ícones utilizados no projeto
+│ └── index.html # Página HTML principal
+├── src/ # Código-fonte do projeto
+│ ├── components/ # Componentes reutilizáveis
+│ │ ├── AboutMe.tsx # Seção "Sobre Mim"
+│ │ ├── Contact.tsx # Seção "Contato"
+│ │ ├── Experience.tsx # Seção "Experiências Profissionais"
+│ │ ├── Header.tsx # Barra de navegação
+│ │ ├── Projects.tsx # Seção "Projetos"
+│ │ └── Technologies.tsx # Seção "Tecnologias"
+│ ├── App.tsx # Componente principal que une todas as seções
+│ ├── index.css # Estilos globais
+│ └── index.tsx # Ponto de entrada do aplicativo
+├── package.json # Dependências e scripts do projeto
+└── README.md # Este arquivo
+```
+
+---
+
+## Como executar o projeto localmente
+
+### Pré-requisitos
+
+Node.js: Certifique-se de ter o Node.js instalado. Você pode baixá-lo [aqui](https://nodejs.org/).
+
+Yarn: Instale o Yarn globalmente usando o comando:
+
+```bash
+  npm install -g yarn
+```
+
+### Passos para Executar
+
+Clone o repositório:
+
+1. ```bash
+   git clone https://github.com/seu-usuario/portfolio.git
+
+   cd portfolio
+   ```
+2. Instale as dependências:
+
+   ```bash
+   yarn install
+   ```
+3. Inicie o servidor de desenvolvimento:
+
+   ```bash
+   yarn start
+   ```
+4. Acesse o projeto no navegador:
+
+   ```bash
+   http://localhost:3000
+   ```
+
+## Personalizações Futuras
+
+#### **Dark Mode**
+
+* Implementar um botão para alternar entre modos claro e escuro.
+
+#### **Formulário de Contato**
+
+* Substituir o link de e-mail por um formulário funcional com integração de backend.
