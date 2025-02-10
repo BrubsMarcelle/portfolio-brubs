@@ -50,29 +50,6 @@ const AboutMe: React.FC = () => {
       </p>
       {/* Botões lado a lado */}
       <div style={{ marginTop: '20px', display: 'flex', justifyContent: 'center', gap: '10px' }}>
-        {/* Botão de Download do Currículo */}
-        <Button
-          type="primary"
-          style={{
-            backgroundColor: '#E4BBEF', 
-            borderColor: '#9A33FF', 
-            color: '#FFFFFF', 
-            transition: 'all 0.3s ease', 
-          }}
-          onMouseEnter={(e) => {
-            e.currentTarget.style.backgroundColor = '#9A33FF'; 
-            e.currentTarget.style.borderColor = '#E4BBEF'; 
-          }}
-          onMouseLeave={(e) => {
-            e.currentTarget.style.backgroundColor = '#E4BBEF'; 
-            e.currentTarget.style.borderColor = '#9A33FF'; 
-          }}
-          onClick={() => {
-            window.open('/curriculo.pdf', '_blank'); 
-          }}
-        >
-          Download do Currículo
-        </Button>
         <Button
           type="default"
           style={{
