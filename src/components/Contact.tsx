@@ -57,7 +57,7 @@ const Contact: React.FC = () => {
         rel="noopener noreferrer"
       >
         <img
-          src="/assets/IN.png"
+          src="/assets/In.png"
           alt="LinkedIn"
           style={{ width: '30px', height: '30px' }}
         />
