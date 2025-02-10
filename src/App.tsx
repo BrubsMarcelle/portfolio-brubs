@@ -1,4 +1,5 @@
 import React from 'react';
+import { Analytics } from "@vercel/analytics/react"
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
@@ -13,10 +14,11 @@ const App: React.FC = () => {
       <Header />
       <AboutMe />
       <Projects />
-      <Technologies /> {/* Adicione aqui */}
+      <Technologies />
       <Experience />
       <Contact />
       <Footer />
+      <Analytics />
     </div>
   );
 };
