@@ -6,7 +6,7 @@ const AboutMe: React.FC = () => {
     <div id="about" style={{ padding: '100px 20px', textAlign: 'center' }}>
       <Avatar
         size={150}
-        src="https://media.licdn.com/dms/image/v2/D4D03AQHP2bAaXrSjfA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1691254084997?e=1744848000&v=beta&t=g3K_2mhG_b1nhAHaHsyP9baOIK3SP1BoemqQyZTyZ-E"
+        src="https://media.licdn.com/dms/image/v2/D4D03AQGiNolbc-yiiw/profile-displayphoto-shrink_200_200/B4DZWlJZcFHIAo-/0/1742232460363?e=1747872000&v=beta&t=1KxNcNkV73AWyR4eYQlWV1XMCJcMsr_NOiA4iJSgI6o"
         style={{ margin: '20px auto', display: 'block' }}
       />
       {/* Título com degradê */}
@@ -22,18 +22,7 @@ const AboutMe: React.FC = () => {
           color: '#FFFFFF'
         }}
       >
-        Universo do
-        <span
-          style={{
-            background: 'linear-gradient(90deg, #FF8660 0%, #9A33FF 100%)',
-            WebkitBackgroundClip: 'text',
-            color: 'transparent',
-            display: 'inline-block',
-          }}
-        >
-          Frontend!
-        </span>
-        
+        Universo do Frontend! 
       </h2>
       <p
         style={{

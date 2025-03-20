@@ -8,6 +8,11 @@ const Projects: React.FC = () => {
       description: 'Descrição: Este é um projeto de portfólio desenvolvido com React, Ant Design e TypeScript. O objetivo deste projeto é apresentar informações profissionais, projetos e habilidades de forma visualmente atraente e responsiva.',
       link: 'https://github.com/BrubsMarcelle/portifolio-brubs',
     },
+    {
+      title: 'To-do List API',
+      description: 'Descrição: Este é um projeto feito em Python, para testar meus conhecimentos iniciais na linguagem, feito em FastAPI, modularizado, com test (pytest)',
+      link: 'https://github.com/BrubsMarcelle/to-do-list',
+    },
   ];
 
   return (

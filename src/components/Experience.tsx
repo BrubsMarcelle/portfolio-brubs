@@ -67,7 +67,7 @@ const Experience: React.FC = () => {
           Atual (2025 - Presente)
         </Paragraph>
         <Paragraph style={{ color: '#FFFFFF', fontSize: '14px' }}>
-          Sou Desenvolvedora de nível I, na empresa DM, onde minhas principais obrigações são realizar o desenvolvimento do Bot de atendimento (WhatsApp e Widget), através de uma plataforma low code (Zenvia) e também desenvolver a plataforma em que os colaboradores fazem acesso para o atendimento humano (via chat ou telefone), usando a tecnologia React/Typescript/Ant Design, faço também a manutenção de API's em C#.
+          Sou Desenvolvedora de nível I, na empresa DM, onde minhas principais obrigações são realizar o desenvolvimento do Bot de atendimento (WhatsApp e Widget), através de uma plataforma low code (Zenvia) e também desenvolver a plataforma em que os colaboradores fazem acesso para o atendimento humano (via chat ou telefone), usando a tecnologia React/Typescript/Ant Design, faço também a manutenção de API's em C# e python.
         </Paragraph>
       </Card>
 
