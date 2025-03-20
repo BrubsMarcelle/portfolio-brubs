@@ -4,7 +4,7 @@ import { Card, Carousel } from 'antd';
 const Projects: React.FC = () => {
   const projects = [
     {
-      title: 'Portifólio',
+      title: 'Portfólio',
       description: 'Descrição: Este é um projeto de portfólio desenvolvido com React, Ant Design e TypeScript. O objetivo deste projeto é apresentar informações profissionais, projetos e habilidades de forma visualmente atraente e responsiva.',
       link: 'https://github.com/BrubsMarcelle/portifolio-brubs',
     },
