@@ -55,6 +55,18 @@ const Technologies: React.FC = () => {
           alt="TypeScript"
           style={{ width: '60px', height: '60px' }}
         />
+        {/* Ícone do Python */}
+        <img
+          src="/assets/python.png" 
+          alt="Python"
+          style={{ width: '60px', height: '60px' }}
+        />
+        {/* Ícone do C# */}
+        <img
+          src="/assets/dotnet.png" 
+          alt="C#"
+          style={{ width: '60px', height: '60px' }}
+        />
       </div>
     </div>
   );

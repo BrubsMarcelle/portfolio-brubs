@@ -13,6 +13,11 @@ const Projects: React.FC = () => {
       description: 'Descrição: Este é um projeto feito em Python, para testar meus conhecimentos iniciais na linguagem, feito em FastAPI, modularizado, com test (pytest)',
       link: 'https://github.com/BrubsMarcelle/to-do-list',
     },
+    {
+      title: 'Livraria - Blazor',
+      description: 'Descrição: Este é um projeto de livraria feito em C# (.Net 8), fazendo um CRUD de cadastro de livros, edição e deletar livros, usando blazor como frontend e SQLLite como banco de dados',
+      link: 'https://github.com/BrubsMarcelle/Livraria',
+    },
   ];
 
   return (
