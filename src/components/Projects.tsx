@@ -60,7 +60,6 @@ const Projects: React.FC = () => {
                 margin: 'auto',
                 padding: '16px',
               }}
-              bodyStyle={{ padding: '16px' }}
               actions={[
                 <a href={project.link} target="_blank" rel="noopener noreferrer" key="github">
                   Ver no GitHub

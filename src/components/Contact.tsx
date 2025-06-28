@@ -14,7 +14,7 @@ const Contact: React.FC = () => {
         padding: '20px', 
       }}
     >
-      {/* Título */}
+
       <h2
         style={{
           fontFamily: "'Poppins', sans-serif",
@@ -38,10 +38,8 @@ const Contact: React.FC = () => {
           gap: '10px', 
         }}
       >
-        {/* Ícone de e-mail */}
-        <MailOutlined style={{ fontSize: '20px', color: '#FFFFFF' }} />
 
-        {/* Endereço de e-mail clicável */}
+        <MailOutlined style={{ fontSize: '20px', color: '#FFFFFF' }} />
         <a
           href="mailto:brubsmarcelle2022@gmail.com"
           style={{ color: '#FFFFFF', textDecoration: 'none' }} // Estilo para o link
@@ -50,7 +48,6 @@ const Contact: React.FC = () => {
         </a>
       </p>
 
-      {/* Ícone do LinkedIn */}
       <a
         href="https://www.linkedin.com/in/bruna-marcelle-gregorio-silva-900b72224/"
         target="_blank"

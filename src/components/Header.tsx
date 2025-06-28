@@ -2,10 +2,66 @@ import React from 'react';
 import { Menu } from 'antd';
 
 const Header: React.FC = () => {
+  const menuItems = [
+    {
+      key: 'about',
+      label: (
+        <a href="#about" style={{ textDecoration: 'none', color: 'inherit' }}>
+          Sobre Mim
+        </a>
+      ),
+      style: {
+        fontSize: '16px',
+        padding: '0 30px',
+        transition: 'all 0.3s ease',
+      },
+    },
+    {
+      key: 'projects',
+      label: (
+        <a href="#projects" style={{ textDecoration: 'none', color: 'inherit' }}>
+          Projetos
+        </a>
+      ),
+      style: {
+        fontSize: '16px',
+        padding: '0 30px',
+        transition: 'all 0.3s ease',
+      },
+    },
+    {
+      key: 'experience',
+      label: (
+        <a href="#experience" style={{ textDecoration: 'none', color: 'inherit' }}>
+          Experiência
+        </a>
+      ),
+      style: {
+        fontSize: '16px',
+        padding: '0 30px',
+        transition: 'all 0.3s ease',
+      },
+    },
+    {
+      key: 'contact',
+      label: (
+        <a href="#contact" style={{ textDecoration: 'none', color: 'inherit' }}>
+          Contato
+        </a>
+      ),
+      style: {
+        fontSize: '16px',
+        padding: '0 30px',
+        transition: 'all 0.3s ease',
+      },
+    },
+  ];
+
   return (
     <div style={{ position: 'fixed', top: 0, width: '100%', zIndex: 1000 }}>
       <Menu
         mode="horizontal"
+        items={menuItems}
         style={{
           justifyContent: 'center',
           backgroundColor: '#fff',
@@ -13,63 +69,7 @@ const Header: React.FC = () => {
           height: '80px',
           lineHeight: '80px',
         }}
-      >
-        {/* Item "Sobre Mim" */}
-        <Menu.Item
-          key="about"
-          style={{
-            fontSize: '16px',
-            padding: '0 30px',
-            transition: 'all 0.3s ease', 
-          }}
-        >
-          <a href="#about" style={{ textDecoration: 'none', color: 'inherit' }}>
-            Sobre Mim
-          </a>
-        </Menu.Item>
-
-        {/* Item "Projetos" */}
-        <Menu.Item
-          key="projects"
-          style={{
-            fontSize: '16px',
-            padding: '0 30px',
-            transition: 'all 0.3s ease',
-          }}
-        >
-          <a href="#projects" style={{ textDecoration: 'none', color: 'inherit' }}>
-            Projetos
-          </a>
-        </Menu.Item>
-
-        {/* Item "Experiência" */}
-        <Menu.Item
-          key="experience"
-          style={{
-            fontSize: '16px',
-            padding: '0 30px',
-            transition: 'all 0.3s ease',
-          }}
-        >
-          <a href="#experience" style={{ textDecoration: 'none', color: 'inherit' }}>
-            Experiência
-          </a>
-        </Menu.Item>
-
-        {/* Item "Contato" */}
-        <Menu.Item
-          key="contact"
-          style={{
-            fontSize: '16px',
-            padding: '0 30px',
-            transition: 'all 0.3s ease',
-          }}
-        >
-          <a href="#contact" style={{ textDecoration: 'none', color: 'inherit' }}>
-            Contato
-          </a>
-        </Menu.Item>
-      </Menu>
+      />
     </div>
   );
 };

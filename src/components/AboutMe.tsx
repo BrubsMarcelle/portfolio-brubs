@@ -1,15 +1,15 @@
 import React from 'react';
 import { Avatar, Button } from 'antd';
+const imgAvatar = '/assets/ChibiBruna.png'
 
 const AboutMe: React.FC = () => {
   return (
     <div id="about" style={{ padding: '100px 20px', textAlign: 'center' }}>
       <Avatar
         size={150}
-        src="https://media.licdn.com/dms/image/v2/D4D03AQGiNolbc-yiiw/profile-displayphoto-shrink_200_200/B4DZWlJZcFHIAo-/0/1742232460363?e=1747872000&v=beta&t=1KxNcNkV73AWyR4eYQlWV1XMCJcMsr_NOiA4iJSgI6o"
+        src={imgAvatar}
         style={{ margin: '20px auto', display: 'block' }}
       />
-      {/* Título com degradê */}
       <h2
         style={{
           fontFamily: "'Poppins', sans-serif",
