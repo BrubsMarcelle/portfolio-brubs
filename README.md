@@ -129,4 +129,4 @@ Clone o repositório:
 
 * Substituir o link de e-mail por um formulário funcional com integração de backend.
 
-## Link do projeto no Vercel: [Bruna Marcelle](https://portifolio-brubs.vercel.app/)
+## Link do projeto no Vercel: [Bruna Marcelle](https://portfolio-brubs.vercel.app/)
