@@ -18,6 +18,11 @@ const Projects: React.FC = () => {
       description: 'Descrição: Este é um projeto de livraria feito em C# (.Net 8), fazendo um CRUD de cadastro de livros, edição e deletar livros, usando blazor como frontend e SQLLite como banco de dados',
       link: 'https://github.com/BrubsMarcelle/Livraria',
     },
+    {
+      title: 'Assistente de metas - HTML / CSS / JAVASCRIPT',
+      description: 'Descrição: Projeto realizado no NLW - Nivel iniciante da Rocketseat, usando HTML, CSS e JavaScript, alem de uma IA (Gemini) para fazer a busca e resposta das perguntas do usuário',
+      link: 'https://github.com/BrubsMarcelle/NLW',
+    },
   ];
 
   return (
